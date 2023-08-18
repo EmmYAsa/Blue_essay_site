@@ -1,0 +1,2199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #03a9f3;
+    width: 100%;
+}
+
+div.header-for-computer {
+    width: 1170px;
+    padding: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+div .header-for-computer img.logo {
+    float: left;
+    margin-right: 180px;
+}
+
+div.header-for-computer ul {
+    list-style-type: none;
+}
+
+div.header-for-computer ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 42px;
+
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+div .header-for-computer img.phone-img {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+div .header-for-computer button.sign-in {
+    margin-right: 12px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 6px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    cursor: pointer;
+    background-color: #0187c3;
+    border-color: #0187c3;
+}
+
+div .header-for-computer button.order {
+    margin-right: 24px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 6px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    cursor: pointer;
+    background-color: #f75e2d;
+    border-color: #f75e2d;
+}
+
+div .header-for-computer .burger {
+    cursor: pointer;
+}
+
+/* UNDER-HEADER------------------------------------------------------------------------------------------------------------------------------ */
+
+div.under-header {
+    background-image: url(../img/Vector\ Smart\ Object.png);
+    width: 100%;
+    height: 630px;
+}
+
+div.under-header-for-computer {
+    width: 765px;
+    margin: 0 auto;
+    display: block;
+    transform: translateX(-27%);
+}
+
+div.under-header-for-computer h1 span {
+    font-size: 47px;
+    letter-spacing: -1px;
+    color: #03a9f4;
+    font-family: "Poppins";
+}
+
+div.under-header-for-computer h1 {
+    font-size: 47px;
+    letter-spacing: -1px;
+    font-family: "Poppins";
+    padding-top: 143px;
+    margin-bottom: 28px;
+}
+
+div.under-header-for-computer hr {
+    width: 540px;
+}
+
+div.under-header-for-computer img.line {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -3px;
+}
+
+div.under-header-for-computer p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656a70;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+div.under-header-for-computer button.place-order {
+    width: 220px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    cursor: pointer;
+
+    background-color: #f75e2d;
+    border-color: #f75e2d;
+}
+
+div.under-header-for-computer .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03a9f3;
+    padding: 34px;
+    width: 1160px;
+    margin-left: -30px;
+    margin-top: 65px;
+}
+
+div.under-header-for-computer .inputs article {
+    margin-right: 30px;
+}
+
+div.under-header-for-computer .inputs article label {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+div.under-header-for-computer .inputs article select {
+    height: 50px;
+    width: 202px;
+    margin-top: 10px;
+}
+
+div.under-header-for-computer .inputs article input {
+    height: 50px;
+    width: 202px;
+    margin-top: 10px;
+}
+
+div.under-header-for-computer .inputs button {
+    width: 202px;
+    height: 50px;
+    margin-top: 26px;
+    background-color: #0187c3;
+    border: #0187c3 solid 1px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+div.under-header-for-computer img#girl {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 760px;
+}
+
+/* WELCOME------------------------------------------------------------------------------------- */
+
+div.welcome {
+    width: 1155px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.welcome-for-computer {
+    display: block;
+}
+
+.welcome-for-computer img {
+    float: left;
+    margin-right: 50px;
+}
+
+.welcome-for-computer h6 {
+    font-size: 15px;
+    color: #0287c3;
+    font-weight: 400;
+    font-family: "Poppins";
+
+    margin-bottom: 12px;
+}
+
+.welcome-for-computer h3 {
+    font-size: 35px;
+    color: #1e2021;
+    font-family: "Poppins";
+
+    margin-bottom: 40px;
+}
+
+.welcome-for-computer p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #51555a;
+    font-weight: 400;
+    font-family: "Poppins";
+
+    margin-bottom: 23px;
+}
+
+/* ADVANTAGES-------------------------------------------------------------------------------------- */
+
+div.advantages {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/Vector\ Smart\ Object\ copy\ 7.png');
+}
+
+div.advantages .advantages-for-computer h6 {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+div.advantages .advantages-for-computer h3 {
+    text-align: center;
+    margin-bottom: 68px;
+
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.advantages-for-computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.advantages-for-computer article {
+    float: left;
+    width: 260px;
+    margin: 30px;
+    padding: 38px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+div.advantages-for-computer article img {
+    margin-bottom: 28px;
+}
+
+div.advantages-for-computer article p:first-of-type {
+    font-size: 17px;
+    color: #1e2021;
+    font-weight: 800;
+    font-family: "Poppins";
+    text-align: center;
+
+    margin-bottom: 14px;
+}
+
+div.advantages-for-computer article p:last-of-type {
+    text-align: center;
+}
+
+div.advantages-for-computer button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 15px 55px 15px 55px;
+
+    background-color: #0187c3;
+    border: #0187c3 1px solid;
+    text-align: center;
+
+    color: #fff;
+    cursor: pointer;
+}
+
+/* HOW-IT-WORKS-------------------------------------------------------------------------------------------------- */
+
+div .how-it-works-computer {
+    margin-bottom: 100px;
+}
+
+div .how-it-works-computer h6 {
+    text-align: center;
+    margin-top: 86px;
+    margin-bottom: 28px;
+
+    font-size: 15px;
+    color: #0287c3;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+div .how-it-works-computer h3 {
+    font-size: 33px;
+    color: #323538;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div .how-it-works-computer .how-it-works-computer-all-content {
+    margin-top: 20px;
+}
+
+div .how-it-works-computer section.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .how-it-works-computer section.images img {
+    padding: 0px 99px 0px 99px;
+}
+
+div .how-it-works-computer section.content-text {
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+div .how-it-works-computer section.content-text article {
+    width: 194px;
+    padding: 30px;
+}
+
+div .how-it-works-computer section.content-text article h5 {
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #323538;
+    font-weight: 600;
+    font-family: "Poppins";
+
+    margin-bottom: 20px;
+}
+
+div .how-it-works-computer section.content-text article p {
+    text-align: center;
+
+    font-size: 13px;
+    line-height: 20px;
+    color: #51555a;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+/*DISCOUNTS--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+div.discounts {
+    background-image: url(../img/cloud.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+div.discounts>img {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 57px;
+}
+
+div.discounts-computer {
+    display: block;
+    width: 762px;
+    height: 555px;
+    margin: 0 auto;
+}
+
+div.discounts-computer>h6 {
+    text-align: center;
+    margin-top: 57px;
+
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+div.discounts-computer>h3 {
+    text-align: center;
+    margin-top: 30px;
+
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer>p {
+    text-align: center;
+    margin-top: 39px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts {
+    position: absolute;
+    width: 945px;
+    margin-top: 80px;
+    margin-left: -100px;
+    margin-bottom: 100px;
+    filter: drop-shadow(0px 4px 15px rgba(202, 202, 202, 0.55));
+}
+
+div.discounts-computer div.container-discounts .left {
+    float: left;
+    width: 339px;
+    height: 330px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 15px rgba(202, 202, 202, 0.55));
+    padding: 85px;
+}
+
+div.discounts-computer div.container-discounts .left>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.discounts-computer div.container-discounts .left article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+
+div.discounts-computer div.container-discounts .left article.margin-right {
+    margin-right: 160px;
+}
+
+div.discounts-computer div.container-discounts .left hr {
+    clear: both;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+div.discounts-computer div.container-discounts .left article h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #f75e2e;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+
+div.discounts-computer div.container-discounts .left article p:first-of-type {
+    font-size: 14px;
+    line-height: 22px;
+    color: #51555a;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts .left article p:last-child {
+    font-size: 17px;
+    color: #0287c3;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts .right {
+    background-color: #03a9f4;
+    height: 457px;
+    width: 390px;
+    padding: 23px;
+    float: right;
+}
+
+div.discounts-computer div.container-discounts .right>div {
+    padding: 20px;
+    height: 420px;
+    border: #0187c3 dashed 2px;
+    border-radius: 30px;
+}
+
+div.discounts-computer div.container-discounts .right>div h4 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts .right>div>div {
+    border: #fff dashed 2px;
+    background-color: #0287c3;
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 210px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.discounts-computer div.container-discounts .right>div>div p:first-of-type {
+    text-align: center;
+
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+
+    margin-left: -100px;
+}
+
+div.discounts-computer div.container-discounts .right>div>div p.green {
+    font-size: 62px;
+    line-height: 57px;
+    color: #e2f55d;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts .right>div>div p:last-of-type {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div.discounts-computer div.container-discounts .right>div>div img:first-of-type {
+    position: absolute;
+    margin-left: -322px;
+    margin-top: -211px;
+    height: 44px;
+
+}
+
+div.discounts-computer div.container-discounts .right>div>div img:last-of-type {
+    position: absolute;
+
+    margin-top: -160px;
+    margin-right: -212px;
+    height: 101px;
+}
+
+div.discounts-computer div.container-discounts .right>div>p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+div.discounts-computer div.container-discounts .right>div>img {
+    height: 158px;
+    position: absolute;
+
+    margin-left: 313px;
+    margin-top: -44px;
+}
+
+/* testimonials-------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.testimonials-for-computer-tablet-phone {
+    margin-top: 445px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-for-computer-tablet-phone h6 {
+    height: 12px;
+    font-size: 15px;
+    color: #0287c3;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.testimonials-for-computer-tablet-phone h3 {
+    font-size: 33px;
+    color: #323538;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.testimonials-for-computer-tablet-phone p:first-of-type {
+    width: 612px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #51555a;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials-for-computer-tablet-phone p:nth-child(5) {
+    width: 292px;
+    font-size: 17px;
+    color: #0287c3;
+    font-weight: 600;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.testimonials-for-computer-tablet-phone p:last-of-type {
+    font-size: 13px;
+    color: #a3a6a9;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.testimonials-for-computer-tablet-phone img:last-of-type {
+    position: absolute;
+    margin-top: 180px;
+    cursor: pointer;
+}
+
+/* footer---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.footer-for-computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #03a9f4;
+}
+
+.footer-menu-computer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    padding: 16px;
+    margin-bottom: 50px;
+
+    border-bottom: 1px solid white;
+}
+
+.footer-menu-computer ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-align: right;
+
+    cursor: pointer;
+
+    margin: 0px 10px 0px 10px;
+}
+
+.section-part-computer {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    padding: 16px;
+    margin-bottom: 50px;
+
+    border-bottom: 1px solid white;
+}
+
+.section-part-computer section {
+    width: 228px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.section-part-computer p:first-of-type {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Poppins";
+    margin-bottom: 15px;
+}
+
+.section-part-computer p:last-of-type {
+    font-size: 13px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.footer-last-computer {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-last-computer>p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Museo Sans";
+}
+
+.footer-last-computer ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer-last-computer section {
+    width: 208px;
+}
+
+.footer-last-computer section img {
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.footer-last-computer section p:first-of-type {
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Poppins";
+}
+
+.footer-last-computer section p:last-of-type {
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+/* display none-------------------------------------------------------------------------------------------------------------------------------------- */
+
+div.header-for-tablet {
+    display: none;
+}
+
+div.header-for-phone {
+    display: none;
+}
+
+div.under-header-for-tablet {
+    display: none;
+}
+
+div.under-header-for-phone {
+    display: none;
+}
+
+div.welcome-for-tablet {
+    display: none;
+}
+
+div.welcome-for-phone {
+    display: none;
+}
+
+div.advantages-for-tablet {
+    display: none;
+}
+
+div.advantages-for-phone {
+    display: none;
+}
+
+div .how-it-works-phone {
+    display: none;
+}
+
+div .how-it-works-tablet {
+    display: none;
+}
+
+div.discounts-phone {
+    display: none;
+}
+
+div .discounts-tablet {
+    display: none;
+}
+
+div .footer-for-tablet {
+    display: none;
+}
+
+div.footer-for-phone{
+    display: none;
+}
+
+@media screen and (max-width: 1224px) {
+
+
+    div.header-for-tablet {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    div .header-for-tablet img.logo {
+        float: left;
+        margin-right: 110px;
+    }
+
+
+    div .header-for-tablet img.phone-img {
+        margin-right: 24px;
+        cursor: pointer;
+    }
+
+    div .header-for-tablet button.sign-in {
+        margin-right: 4px;
+        padding: 15px 25px 15px 25px;
+        border-radius: 6px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+        cursor: pointer;
+        background-color: #0187c3;
+        border-color: #0187c3;
+    }
+
+    div .header-for-tablet button.order {
+        margin-right: 24px;
+        padding: 15px 25px 15px 25px;
+        border-radius: 6px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+        cursor: pointer;
+        background-color: #f75e2d;
+        border-color: #f75e2d;
+    }
+
+    div .header-for-tablet .burger {
+        cursor: pointer;
+    }
+
+
+    /* UNDER-HEADER------------------------------------------------------------------------------------------------------------------------------ */
+
+    div.under-header {
+        background-image: url(../img/Vector\ Smart\ Object.png);
+        width: 100%;
+        height: 425px;
+    }
+
+    div.under-header-for-tablet {
+        display: block;
+        width: 650px;
+        margin: 0 auto;
+        display: block;
+        transform: translateX(2%);
+    }
+
+    div.under-header-for-tablet h1 span {
+        font-size: 27px;
+        letter-spacing: -1px;
+        color: #03a9f4;
+        font-family: "Poppins";
+    }
+
+    div.under-header-for-tablet h1 {
+        font-size: 27px;
+        letter-spacing: -1px;
+        font-family: "Poppins";
+        padding-top: 40px;
+        margin-bottom: 28px;
+    }
+
+    div.under-header-for-tablet hr {
+        width: 400px;
+    }
+
+    div.under-header-for-tablet img.line {
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -3px;
+    }
+
+    div.under-header-for-tablet p {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #656a70;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.under-header-for-tablet button.place-order {
+        width: 220px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+        cursor: pointer;
+
+        background-color: #f75e2d;
+        border-color: #f75e2d;
+    }
+
+    div.under-header-for-tablet .inputs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #03a9f3;
+        padding: 34px;
+        width: 665px;
+        margin-left: -55px;
+        margin-top: 65px;
+    }
+
+    div.under-header-for-tablet .inputs article {
+        margin-right: 30px;
+    }
+
+    div.under-header-for-tablet .inputs article label {
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+    }
+
+    div.under-header-for-tablet .inputs article select {
+        height: 50px;
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    div.under-header-for-tablet .inputs article input {
+        height: 50px;
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    div.under-header-for-tablet .inputs button {
+        width: 202px;
+        height: 35px;
+        margin-top: 26px;
+        background-color: #0187c3;
+        border: #0187c3 solid 1px;
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        cursor: pointer;
+    }
+
+    div.under-header-for-tablet img#girl {
+        position: absolute;
+        margin-top: -459px;
+        margin-left: 450px;
+        height: 320px;
+    }
+
+    /* WELCOME: ------------------------------------------------------------------------------------------------------; */
+
+    div.welcome {
+        width: 665px;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    div.welcome-for-tablet {
+        display: block;
+    }
+
+    .welcome-for-tablet img {
+        width: 230px;
+        margin-right: 50px;
+        float: left;
+    }
+
+    .welcome-for-tablet section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .welcome-for-tablet h6 {
+        font-size: 15px;
+        color: #0287c3;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 12px;
+    }
+
+    .welcome-for-tablet h3 {
+        font-size: 35px;
+        color: #1e2021;
+        font-family: "Poppins";
+
+        margin-bottom: 40px;
+    }
+
+    .welcome-for-tablet p {
+        clear: both;
+        text-align: center;
+
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 23px;
+        margin-top: 10px;
+    }
+
+    /* ADVANTAGES------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.advantages-for-tablet {
+        display: block;
+    }
+
+    div.advantages-for-tablet section {
+        width: 630px;
+    }
+
+    div.advantages .advantages-for-tablet h6 {
+        text-align: center;
+        margin-top: 55px;
+        margin-bottom: 28px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.advantages .advantages-for-tablet h3 {
+        text-align: center;
+        margin-bottom: 68px;
+
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.advantages-for-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.advantages-for-tablet article {
+        float: left;
+        width: 138px;
+        margin: 20px;
+        padding: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #fff;
+        border: solid 2px #0187c3;
+    }
+
+    div.advantages-for-tablet article img {
+        margin-bottom: 28px;
+    }
+
+    div.advantages-for-tablet article p:first-of-type {
+        font-size: 17px;
+        color: #1e2021;
+        font-weight: 800;
+        font-family: "Poppins";
+        text-align: center;
+
+        margin-bottom: 14px;
+    }
+
+    div.advantages-for-tablet article p:last-of-type {
+        text-align: center;
+    }
+
+    div.advantages-for-tablet button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 15px 55px 15px 55px;
+
+        background-color: #0187c3;
+        border: #0187c3 1px solid;
+        text-align: center;
+
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /* HOW-IT-WORKS---------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div .how-it-works-tablet {
+        display: block;
+    }
+
+    div .how-it-works-tablet h6 {
+        text-align: center;
+        margin-top: 86px;
+        margin-bottom: 28px;
+
+        font-size: 15px;
+        color: #0287c3;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div .how-it-works-tablet h3 {
+        font-size: 33px;
+        color: #323538;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    div .how-it-works-tablet-all-content .content-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div .how-it-works-tablet-all-content .content-text article {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div .how-it-works-tablet-all-content .content-text img {
+        margin-bottom: 20px;
+    }
+
+    div .how-it-works-tablet-all-content .content-text h5 {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #323538;
+        font-weight: 600;
+        font-family: "Poppins";
+
+        margin-bottom: 20px;
+    }
+
+    div .how-it-works-tablet-all-content .content-text p {
+        text-align: center;
+
+        font-size: 13px;
+        line-height: 20px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 20px;
+    }
+
+    /* DISCOUNTS-------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.discounts {
+        height: 890px;
+    }
+
+    div.discounts-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.discounts-tablet>h6 {
+        text-align: center;
+        margin-top: 57px;
+
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.discounts-tablet>h3 {
+        text-align: center;
+        margin-top: 30px;
+
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet>p {
+        text-align: center;
+        margin-top: 39px;
+
+        font-size: 20px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .first-container {
+        float: left;
+        width: 317px;
+        height: 330px;
+        background-color: #fff;
+        filter: drop-shadow(0px 4px 15px rgba(202, 202, 202, 0.55));
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    div.discounts-tablet .first-container>div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.discounts-tablet .first-container article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    div.discounts-tablet .first-container article.margin-right {
+        margin-right: 50px;
+    }
+
+    div.discounts-tablet .first-container hr {
+        clear: both;
+        margin-top: 36px;
+        margin-bottom: 36px;
+    }
+
+    div.discounts-tablet .first-container article h3 {
+        font-size: 35px;
+        line-height: 40px;
+        color: #f75e2e;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+
+    div.discounts-tablet .first-container article p:first-of-type {
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .first-container article p:last-child {
+        font-size: 17px;
+        color: #0287c3;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .second-container {
+        background-color: #03a9f4;
+        height: 457px;
+        width: 390px;
+        padding: 23px;
+        margin-top: 50px;
+    }
+
+    div.discounts-tablet .second-container>div {
+        padding: 20px;
+        height: 420px;
+        border: #0187c3 dashed 2px;
+        border-radius: 30px;
+    }
+
+    div.discounts-tablet .second-container>div h4 {
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .second-container>div>div {
+        border: #fff dashed 2px;
+        background-color: #0287c3;
+        margin-top: 40px;
+        border-radius: 20px;
+        height: 210px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.discounts-tablet .second-container>div>div p:first-of-type {
+        text-align: center;
+
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+
+        margin-left: -100px;
+    }
+
+    div.discounts-tablet .second-container>div>div p.green {
+        font-size: 62px;
+        font-weight: bolder;
+        line-height: 57px;
+        color: #e2f55d;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .second-container>div>div p:last-of-type {
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-tablet .second-container>div>div img:first-of-type {
+        position: absolute;
+        margin-left: -322px;
+        margin-top: -211px;
+        height: 44px;
+
+    }
+
+    div.discounts-tablet .second-container>div>div img:last-of-type {
+        position: absolute;
+
+        margin-top: -160px;
+        margin-right: -212px;
+        height: 101px;
+    }
+
+    div.discounts-tablet .second-container>div>p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        color: #ffffff;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans";
+        text-align: center;
+
+        margin-top: 50px;
+    }
+
+    div.discounts-tablet .second-container>div>img {
+        height: 158px;
+        position: absolute;
+
+        margin-left: 313px;
+        margin-top: -44px;
+    }
+
+    /* testimonial------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    .testimonials-for-computer-tablet-phone p:first-of-type {
+        width: 612px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 300;
+        font-family: "Poppins";
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonials-for-computer-tablet-phone img:last-of-type {
+        width: 730px;
+        cursor: pointer;
+    }
+
+    /* FOOTER---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.footer-for-tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 15px 0px 10px 0px;
+        background-color: #03a9f4;
+    }
+
+    .footer-for-tablet div{
+        width: 640px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-for-tablet div>p {
+        font-size: 13px;
+        line-height: 21px;
+        color: #ffffff;
+        font-family: "Museo Sans";
+    }
+
+    .footer-for-tablet ul li {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    /* display none-------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    div.header-for-computer {
+        display: none;
+    }
+
+    div.header-for-phone {
+        display: none;
+    }
+
+    div.under-header-for-computer {
+        display: none;
+    }
+
+    div.under-header-for-phone {
+        display: none;
+    }
+
+    div.welcome-for-computer {
+        display: none;
+    }
+
+    div.welcome-for-phone {
+        display: none;
+    }
+
+    div.advantages-for-computer {
+        display: none;
+    }
+
+    div.advantages-for-phone {
+        display: none;
+    }
+
+    div.how-it-works-computer {
+        display: none;
+    }
+
+    div.how-it-works-phone {
+        display: none;
+    }
+
+    div.discounts-computer {
+        display: none;
+    }
+
+    div.discounts-phone {
+        display: none;
+    }
+
+    div.discounts>img {
+        display: none;
+    }
+
+    div.footer-for-computer {
+        display: none;
+    }
+
+    div .footer-for-phone{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 745px) {
+
+    div.header-for-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    div.header-for-phone img.logo {
+
+        margin-right: 120px;
+        width: 165px;
+    }
+
+    div.header-for-phone img.burger {
+        margin-top: 10px;
+        margin-left: 255px;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    div.header-for-phone img.phone-img {
+        position: fixed;
+        top: 110px;
+        margin-left: 245px;
+        cursor: pointer;
+        border-radius: 19px;
+        height: 25px;
+    }
+
+    /* UNDER-HEADER------------------------------------------------------------------------------------------------------------------------------ */
+
+    div.under-header-for-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.under-header-for-phone h1 span {
+        font-size: 20px;
+        letter-spacing: -1px;
+        color: #03a9f4;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.under-header-for-phone h1 {
+        font-size: 20px;
+        letter-spacing: -1px;
+        font-family: "Poppins";
+        padding-top: 40px;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    div.under-header-for-phone hr {
+        width: 270px;
+    }
+
+    div.under-header-for-phone p {
+        margin-top: 20px;
+        font-size: 10px;
+        color: #656a70;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.under-header-for-phone button.place-order {
+        width: 220px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+        cursor: pointer;
+
+        background-color: #f75e2d;
+        border-color: #f75e2d;
+    }
+
+    div.under-header-for-phone .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #03a9f3;
+        margin-top: 65px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    div.under-header-for-phone .inputs article label {
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+    }
+
+    div.under-header-for-phone .inputs article select {
+        height: 40px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    div.under-header-for-phone .inputs article input {
+        height: 40px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    div.under-header-for-phone .inputs button {
+        width: 202px;
+        height: 35px;
+        margin-top: 26px;
+        background-color: #0187c3;
+        border: #0187c3 solid 1px;
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        cursor: pointer;
+    }
+
+    div.under-header-for-phone img#girl {
+        position: absolute;
+        margin-top: -459px;
+        margin-left: 450px;
+        height: 320px;
+    }
+
+    /* WELCOME----------------------------------------------------------------------------------------------------------------- */
+
+    div.welcome {
+        width: 220px;
+        margin: 0 auto;
+        margin-top: 270px;
+        padding: 0;
+    }
+
+    div.welcome-for-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-for-phone h6 {
+        font-size: 15px;
+        color: #0287c3;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .welcome-for-phone h3 {
+        font-size: 22px;
+        color: #1e2021;
+        font-family: "Poppins";
+
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .welcome-for-phone img {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .welcome-for-phone p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    /* ADVANTAGES------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+    div.advantages-for-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div .advantages-for-phone section article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    div.advantages .advantages-for-phone h6 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 28px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.advantages .advantages-for-phone h3 {
+        text-align: center;
+        margin-bottom: 68px;
+
+        font-size: 33px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.advantages-for-phone article p:first-of-type {
+        font-size: 17px;
+        color: white;
+        font-weight: 800;
+        font-family: "Poppins";
+        text-align: center;
+
+        margin-bottom: 14px;
+    }
+
+    div.advantages-for-phone article p:last-of-type {
+        text-align: center;
+        color: #fff;
+    }
+
+    div.advantages-for-phone button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 15px 55px 15px 55px;
+
+        background-color: #0187c3;
+        border: #0187c3 1px solid;
+        text-align: center;
+
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /* HOW-IT-WORKS----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div .how-it-works-phone {
+        display: block;
+    }
+
+    div .how-it-works-phone h6 {
+        text-align: center;
+        margin-top: 86px;
+        margin-bottom: 28px;
+
+        font-size: 15px;
+        color: #0287c3;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div .how-it-works-phone h3 {
+        font-size: 25px;
+        color: #323538;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    div .how-it-works-phone-all-content .content-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div .how-it-works-phone-all-content .content-text article {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div .how-it-works-phone-all-content .content-text img {
+        margin-bottom: 20px;
+    }
+
+    div .how-it-works-phone-all-content .content-text h5 {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #323538;
+        font-weight: 600;
+        font-family: "Poppins";
+
+        margin-bottom: 20px;
+    }
+
+    div .how-it-works-phone-all-content .content-text p {
+        text-align: center;
+
+        font-size: 13px;
+        line-height: 20px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+
+        margin-bottom: 20px;
+    }
+
+    /* DISCOUNTS-------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.discounts-phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.discounts-phone>h6 {
+        text-align: center;
+        margin-top: 57px;
+
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    div.discounts-phone>h3 {
+        text-align: center;
+        margin-top: 30px;
+
+        font-size: 28px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone>p {
+        text-align: center;
+        margin-top: 39px;
+
+        font-size: 15px;
+        width: 290px;
+        line-height: 20px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .first-container {
+        width: 170px;
+        height: 570px;
+        background-color: #fff;
+        filter: drop-shadow(0px 4px 15px rgba(202, 202, 202, 0.55));
+        padding: 20px;
+        margin-top: 30px;
+
+        border-radius: 10px;
+
+    }
+
+    div.discounts-phone .first-container article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 17px;
+    }
+
+    div.discounts-phone .first-container hr {
+        clear: both;
+        margin-top: 17px;
+        margin-bottom: 17px;
+    }
+
+    div.discounts-phone .first-container article h3 {
+        font-size: 35px;
+        line-height: 40px;
+        color: #f75e2e;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+
+    div.discounts-phone .first-container article p:first-of-type {
+        font-size: 14px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .first-container article p:last-child {
+        font-size: 17px;
+        color: #0287c3;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .second-container {
+        background-color: #03a9f4;
+        height: 385px;
+        width: 190px;
+        padding: 10px;
+        margin-top: 20px;
+
+        border-radius: 10px;
+    }
+
+    div.discounts-phone .second-container>div {
+        padding: 5px;
+        height: 370px;
+        border: #0187c3 dashed 2px;
+        border-radius: 30px;
+    }
+
+    div.discounts-phone .second-container>div h4 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 34px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .second-container>div>div {
+        border: #fff dashed 2px;
+        background-color: #0287c3;
+        margin-top: 15px;
+        border-radius: 20px;
+        height: 210px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.discounts-phone .second-container>div>div p:first-of-type {
+        text-align: center;
+
+        font-size: 24px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+
+        margin-left: -100px;
+    }
+
+    div.discounts-phone .second-container>div>div p.green {
+        font-size: 62px;
+        font-weight: bolder;
+        line-height: 57px;
+        color: #e2f55d;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .second-container>div>div p:last-of-type {
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    div.discounts-phone .second-container>div>div img:first-of-type {
+        position: absolute;
+        margin-top: -211px;
+        margin-left: -148px;
+        height: 27px;
+
+    }
+
+    div.discounts-phone .second-container>div>div img:last-of-type {
+        position: absolute;
+
+        margin-top: -151px;
+        margin-right: -151px;
+        height: 56px;
+    }
+
+    div.discounts-phone .second-container>div>p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        color: #ffffff;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Open Sans";
+        text-align: center;
+
+        margin-top: 17px;
+    }
+
+    /* testimonials------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+    .testimonials-for-computer-tablet-phone p:first-of-type {
+        width: 160px;
+        font-size: 10px;
+        line-height: 22px;
+        color: #51555a;
+        font-weight: 300;
+        font-family: "Poppins";
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonials-for-computer-tablet-phone img:first-of-type {
+        height: 50px;
+    }
+
+    .testimonials-for-computer-tablet-phone img:last-of-type {
+        width: 260px;
+        margin-top: 270px;
+        cursor: pointer;
+    }
+
+    /* FOOTER---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.footer-for-phone{
+        display: flex;
+        justify-content: center;
+        background-color: #03a9f4;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .footer-for-phone ul li{
+        display: inline-block;
+        list-style-type: none;
+        margin: 0px 5px 0px 5px;
+        cursor: pointer;
+    }
+
+    .footer-for-phone ul li img{
+        height: 20px;
+    }
+
+    /* display none-------------------------------------------------------------------------------------------------------------------------------------- */
+
+    div.header-for-computer {
+        display: none;
+    }
+
+    div.header-for-tablet {
+        display: none;
+    }
+
+    div.under-header-for-computer {
+        display: none;
+    }
+
+    div.under-header-for-tablet {
+        display: none;
+    }
+
+    div.welcome-for-computer {
+        display: none;
+    }
+
+    div.welcome-for-tablet {
+        display: none;
+    }
+
+    div.advantage-for-computer {
+        display: none;
+    }
+
+    div.advantages-for-tablet {
+        display: none;
+    }
+
+    div .how-it-works-computer {
+        display: none;
+    }
+
+    div .how-it-works-tablet {
+        display: none;
+    }
+
+    div .discounts-computer {
+        display: none;
+    }
+
+    div .discounts-tablet {
+        display: none;
+    }
+
+    div.discounts>img {
+        display: none;
+    }
+
+    div.footer-for-computer {
+        display: none;
+    }
+
+    div.footer-for-tablet{
+        display: none;
+    }
+}
